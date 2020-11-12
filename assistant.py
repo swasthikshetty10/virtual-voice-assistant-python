@@ -90,8 +90,8 @@ def sendEmail(to, content):
     server.starttls() 
       
     # Enable low security in gmail 
-    server.login('apexgaming10902@gmail.com', '@you10902') 
-    server.sendmail('apexgaming10902@gmail.com', to, content) 
+    server.login('YOUR EMAIL', 'PASSWORD') 
+    server.sendmail('YOUR EMAIL', to, content) 
     server.close() 
 
 
@@ -134,7 +134,7 @@ while f:
            try: 
                speak("What should I say?") 
                content = takeCommand() 
-               to = "swasthikshetty10902@gmail.com"    
+               to = "xxxxxxx@gmail.com"    
                sendEmail(to, content) 
                speak("Email has been sent !") 
            except Exception as e: 
@@ -163,7 +163,7 @@ while f:
             speak("Thanks for giving me your time") 
             exit() 
     elif "what's your name" in query or "What is your name" in query: 
-            speak("My friends call me savitha bhabi")
+            speak("actually i dont have name , no one named me lol")
     elif "who made you" in query or "who created you" in query:  
             speak("I have been created by swasthik , also known as EPAX") 
     elif 'joke' in query or 'tell me a joke' in query: 
@@ -206,9 +206,9 @@ while f:
         speak("Recycle Bin Recycled") 
     elif "weather" in query: 
             
-        # Google Open weather website 
-        # to get API of Open weather  
-        api_key = "46b04e5dc08c9ca57585e7ddf9b08512" 
+        # use 'Open weather' API Key 
+          
+        api_key = "API-KEY OF OPEN WEATHER" 
         base_url = "http://api.openweathermap.org / data / 2.5 / weather?"
         speak(" City name ") 
         print("City name : ") 

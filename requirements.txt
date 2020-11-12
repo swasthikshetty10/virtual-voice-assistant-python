@@ -1,0 +1,12 @@
+wolframalpha
+pyttsx3
+wikipedia
+SpeechRecognition
+ecapture
+twilio
+requests
+pyjokes
+feedparser
+winshell
+wheel
+spotify-local-control

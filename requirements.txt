@@ -1,6 +1,8 @@
 wolframalpha
+wheel
 pyttsx3
 wikipedia
+client
 SpeechRecognition
 ecapture
 twilio
